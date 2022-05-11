@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>Product Management System</p>
+    </div>
+    <div class="body">
+      <div class="container"></div>
+      <input
+        type="button"
+        value="Thêm"
+        class="button1"
+        onClick="window.location.href = 'add.html'"
+      />
+      <table>
+        <tr class="tab-nav">
+          <th>ID</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Image</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+        <tr class="tab-stat">
+          <td>1</td>
+          <td>cà phê đá</td>
+          <td>1000 đồng</td>
+          <td>
+            <img
+              src="https://vuicoffee.com/wp-content/uploads/2019/09/ca-phe-nguyen-chat-bao-nhieu-tien-1kg-2.png"
+              alt=""
+              width="200px"
+              height="150px"
+            />
+          </td>
+          <td>Available</td>
+          <td>
+            <span class="option">
+              <input type="button" class="button2" value="Sửa" />
+              <input type="button" class="button2" value="Xoá" />
+            </span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
