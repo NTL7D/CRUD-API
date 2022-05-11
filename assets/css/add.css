@@ -75,7 +75,7 @@ input[type="file"] {
   margin-top: 20px;
 }
 
-.button2 {
+.button {
   width: 120px;
   padding: 15px;
   margin: 15px;
@@ -88,7 +88,7 @@ input[type="file"] {
   font-weight: bold;
 }
 
-.button2:hover {
+.button:hover {
   background-color: #51794a;
   color: white;
 }
