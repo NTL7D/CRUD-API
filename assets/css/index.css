@@ -1,57 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f0f8ef;
 }
 
 .header {
   background-color: #69bd5a;
-  height: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  padding: 10px;
 }
 
 .header p {
   font-size: 30px;
   font-weight: bold;
+  padding: 10px;
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .button1 {
-  width: 150px;
+  width: 130px;
   margin: 40px;
   margin-left: 50px;
-  padding: 15px;
+  padding: 3px;
   background-color: white;
   color: black;
-  border: 2px solid #20391b;
+  border: 2px solid #51794a;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
 }
 
 .button1:hover {
-  background-color: #20391b;
+  background-color: #51794a;
   color: white;
 }
 .button2 {
   width: 70px;
-  padding: 10px;
-  margin: 10px;
+  padding: 15px 5px;
+  margin: 5px;
   background-color: white;
   color: black;
-  border: 2px solid #20391b;
-  border-radius: 10px;
+  border: 2px solid #51794a;
+  border-radius: 3px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
 }
 
 .button2:hover {
-  background-color: #20391b;
+  background-color: #51794a;
   color: white;
 }
 
@@ -69,6 +74,7 @@ table {
   font-weight: bold;
   font-size: 18px;
   padding: 10px;
+  border: 1px solid black;
 }
 
 .tab-stat {
@@ -77,7 +83,7 @@ table {
   background-color: #ebeaea;
 }
 
-.option {
+/* .option {
   display: flex;
   justify-content: center;
-}
+} */
