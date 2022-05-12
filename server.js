@@ -20,17 +20,7 @@ app.use("/css", express.static(path.resolve(__dirname, "assets/css")));
 app.use("/images", express.static(path.resolve(__dirname, "assets/images")));
 app.use("/js", express.static(path.resolve(__dirname, "assets/js")));
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
-
-app.get("/add_product", (req, res) => {
-  res.render("add_product");
-});
-
-app.get("/edit_product", (req, res) => {
-  res.render("edit_product");
-});
+app.use("/", require("./server/routes/router"));
 
 app.listen(PORT, () => {
   console.log(`listening on http://localhost:${PORT}`);
