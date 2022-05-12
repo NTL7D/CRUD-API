@@ -1,12 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crud application</title>
-</head>
-<body>
-    
-</body>
-</html>
+<%- include('include/_header') %>
+<div class="body">
+  <div class="container"></div>
+  <button
+    class="button1"
+    type="button"
+    title="add product"
+    onClick="window.location.href = '/add_product'"
+  >
+    <i class="fa-regular fa-plus"></i>
+  </button>
+  <table>
+    <thead class="tab-nav">
+      <tr>
+        <th>ID</th>
+        <th>Tên sản phẩm</th>
+        <th>Giá tiền</th>
+        <th>Trạng thái</th>
+        <th>Hình ảnh</th>
+        <th>Tuỳ chọn</th>
+      </tr>
+    </thead>
+    <tbody class="tab-stat">
+      <%- include('include/_show') %>
+    </tbody>
+  </table>
+</div>
+
+<%- include('include/_footer') %>
