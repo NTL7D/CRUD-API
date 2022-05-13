@@ -1,0 +1,33 @@
+<% for(var i =0; i<product.length; i++){ %>
+<tr>
+  <td><%=i+1%></td>
+  <td><%=product[i].name %></td>
+  <td><%=product[i].price %></td>
+  <td><%=product[i].status %></td>
+  <td>
+    <img
+      src="https://vuicoffee.com/wp-content/uploads/2019/09/ca-phe-nguyen-chat-bao-nhieu-tien-1kg-2.png"
+      alt=""
+      width="200px"
+      height="150px"
+    />
+  </td>
+  <td>
+    <span class="option">
+      <button
+        type="button"
+        class="button2"
+        title="edit"
+        onClick="window.location.href = '/edit_product'"
+      >
+        <a style="text-decoration: none">
+          <i class="fa-regular fa-pen-to-square"></i>
+        </a>
+      </button>
+      <button type="button" class="button2" title="delete" data-id=<%=product[i]._id%>>
+        <i class="fa-regular fa-trash-can"></i>
+      </button>
+    </span>
+  </td>
+</tr>
+<%}%>

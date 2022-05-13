@@ -1,0 +1,82 @@
+<div class="form-container">
+  <div style="width: 25%">
+    <div class="form-nav">Sửa sản phẩm</div>
+    <div class="form">
+      <form method="POST" id="edit_product">
+        <div class="input-name">
+          <label for="name">Tên sản phẩm:</label><br />
+          <input type="hidden" name="id" value="<%product._id%>">
+          <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="nhập tên sản phẩm"
+          />
+        </div>
+        <div class="input-price">
+          <label for="price">Giá tiền:</label><br />
+          <input
+            class="form-input"
+            type="text"
+            id="price"
+            name="price"
+            placeholder="nhập giá tiền sản phẩm"
+          />
+        </div>
+        <div class="input-status">
+          <div>
+            <label for="status">Trạng thái:</label>
+            <div class="radio">
+              <div>
+                <input
+                  type="radio"
+                  id="available"
+                  name="available"
+                  value="available"
+                  checked
+                />
+                <label for="available">Còn hàng</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="nonavailable"
+                  name="available"
+                  value="nonavailable"
+                />
+                <label for="nonavailable">Hết hàng</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="input-img">
+          <label for="img">Hình ảnh:</label><br />
+          <input
+            type="text"
+            id="img"
+            name="img"
+            placeholder="Thêm đường dẫn hình ảnh "
+          />
+        </div>
+        <span class="form-option">
+          <button
+            type="submit"
+            class="button3"
+            title="submit"
+          >
+            Xác nhận
+          </button>
+          <button
+            type="button"
+            class="button3"
+            title="back"
+            onClick="window.location.href='/'"
+          >
+            Quay lại
+          </button>
+        </span>
+      </form>
+    </div>
+  </div>
+</div>

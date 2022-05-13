@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f8ef;
+}
+
+#header {
+  background-color: #69bd5a;
+  text-align: center;
+  padding: 10px;
+}
+
+#header p {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.button1 {
+  width: 130px;
+  margin: 40px;
+  margin-left: 50px;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  border: 2px solid #51794a;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.button1:hover {
+  background-color: #51794a;
+  color: white;
+}
+.button2 {
+  width: 70px;
+  padding: 15px 5px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid #51794a;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button2:hover {
+  background-color: #51794a;
+  color: white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border-spacing: 0;
+}
+
+.tab-nav {
+  background-color: #87ca7b;
+}
+
+.tab-nav th {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.tab-stat {
+  text-align: center;
+  font-size: 20px;
+  background-color: #ebeaea;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.form-nav {
+  padding: 12px;
+  text-align: center;
+  background-color: #87ca7b;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.form {
+  padding: 30px;
+  border: 1px solid black;
+  background-color: #ebeaea;
+}
+
+input {
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  margin: 10px;
+}
+
+.radio {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.form-option {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button3 {
+  width: 120px;
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid #51794a;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button3:hover {
+  background-color: #51794a;
+  color: white;
+}
